@@ -16,6 +16,10 @@ public class MainDemoApp {
 		// call the business method
 		theAccountDao.addAccount();
 
+		// do it again
+		System.out.println("\n let's call it again");
+		theAccountDao.addAccount();
+		
 		// close the context
 		context.close();
 	}
