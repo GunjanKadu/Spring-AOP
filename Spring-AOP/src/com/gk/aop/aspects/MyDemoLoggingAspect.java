@@ -14,7 +14,7 @@ public class MyDemoLoggingAspect {
 	// @Before("execution(public void updateAccount())")
 
 	// add account method of only a particular class
-	@Before("execution(public void com.gk.aop.dao.AccountDao.addAccount())")
+	@Before("execution(public void add*())")
 	public void beforeAddAccountAdvice() {
 		System.out.println("\n======>>>>> Executing @Before Advice on method()");
 	}
