@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Spring-AOP &amp; Point Cut Declarations/src"/>
+	<classpathentry kind="src" path="Spring-AOP-Combining PointCut Declarations/src"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/aspectjweaver-1.9.5.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-aop-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-aop-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-aop-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-aspects-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-aspects-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-aspects-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-beans-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-beans-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-beans-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-indexer-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-indexer-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-indexer-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-support-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-support-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-context-support-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-core-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-core-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-core-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-expression-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-expression-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-expression-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-instrument-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-instrument-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-instrument-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jcl-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jcl-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jcl-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jdbc-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jdbc-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jdbc-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jms-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jms-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-jms-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-messaging-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-messaging-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-messaging-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-orm-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-orm-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-orm-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-oxm-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-oxm-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-oxm-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-test-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-test-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-test-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-tx-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-tx-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-tx-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-web-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-web-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-web-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-webflux-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-webflux-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-webflux-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-webmvc-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-webmvc-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-webmvc-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-websocket-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-websocket-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP &amp; Point Cut Declarations/lib/spring-websocket-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/aspectjweaver-1.9.5.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-aop-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-aop-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-aop-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-aspects-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-aspects-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-aspects-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-beans-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-beans-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-beans-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-indexer-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-indexer-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-indexer-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-support-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-support-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-context-support-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-core-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-core-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-core-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-expression-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-expression-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-expression-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-instrument-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-instrument-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-instrument-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jcl-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jcl-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jcl-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jdbc-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jdbc-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jdbc-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jms-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jms-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-jms-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-messaging-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-messaging-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-messaging-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-orm-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-orm-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-orm-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-oxm-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-oxm-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-oxm-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-test-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-test-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-test-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-tx-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-tx-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-tx-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-web-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-web-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-web-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-webflux-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-webflux-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-webflux-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-webmvc-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-webmvc-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-webmvc-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-websocket-5.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-websocket-5.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="Spring-AOP-Combining PointCut Declarations/lib/spring-websocket-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="output" path="Spring-AOP &amp; Point Cut Declarations/bin"/>
+</classpath>
