@@ -2,6 +2,7 @@ package com.gk.aop.aspects;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 @Aspect
@@ -23,9 +24,14 @@ public class MyDemoLoggingAspect {
 
 	// Pointcut expression for all return types & particular argument
 	// @Before("execution(public * add*(com.gk.aop.Account))")
-	
+
+	// Declaring pointcut declaration so that it can be used multiple times;
+	@Pointcut("execution(public * com.gk.aop.dao.*.*(..))")
+	private void forDaoPackage() {
+	}
+
 	// Pointcut expression for all return types & any number of arguments
-	@Before("execution(public * com.gk.aop.dao.*.*(..))")
+	@Before("forDaoPackage()")
 	public void beforeAddAccountAdvice() {
 		System.out.println("\n======>>>>> Executing @Before Advice on method()");
 	}
