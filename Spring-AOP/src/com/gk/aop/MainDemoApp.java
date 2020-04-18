@@ -17,11 +17,12 @@ public class MainDemoApp {
 		// Get the membership dao
 		MembershipDAO theMembershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
 
+		// call the business method
+		Account myAccount = new Account();
+		theAccountDao.addAccount(myAccount,true);
+
 		// call the membership business method
 		theMembershipDAO.addTest();
-
-		// call the business method
-		theAccountDao.addAccount();
 
 		// close the context
 		context.close();

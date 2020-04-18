@@ -17,12 +17,15 @@ public class MyDemoLoggingAspect {
 
 	// Adding wildcard pointcut expression
 	// @Before("execution(public void add*())")
-	
+
 	// PointCut expression only for void return types
 	// @Before("execution( void add*())")
 
-	// Pointcut expression for all return types
-	@Before("execution(public * add*())")
+	// Pointcut expression for all return types & particular argument
+	// @Before("execution(public * add*(com.gk.aop.Account))")
+	
+	// Pointcut expression for all return types & any number of arguments
+	@Before("execution(public * add*(..))")
 	public void beforeAddAccountAdvice() {
 		System.out.println("\n======>>>>> Executing @Before Advice on method()");
 	}
