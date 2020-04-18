@@ -8,35 +8,33 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class MyDemoLoggingAspect {
-	// this is where we add all of our related advice for logging
+	// create a point cut for getter method
+	@Pointcut("execution(public * com.gk.aop.dao.*.get*(..))")
+	private void getter() {
+	}
 
-	// let's start with an Before advice
-	// @Before("execution(public void updateAccount())")
+	// create a point cut for setter method
+	@Pointcut("execution(public * com.gk.aop.dao.*.set*(..))")
+	private void setter() {
+	}
 
-	// add account method of only a particular class
-	// @Before("execution(public void com.gk.aop.dao.AccountDao.addAccount())")
-
-	// Adding wildcard pointcut expression
-	// @Before("execution(public void add*())")
-
-	// PointCut expression only for void return types
-	// @Before("execution( void add*())")
-
-	// Pointcut expression for all return types & particular argument
-	// @Before("execution(public * add*(com.gk.aop.Account))")
-
-	// Declaring pointcut declaration so that it can be used multiple times;
+	// create a point cut for all methods method
 	@Pointcut("execution(public * com.gk.aop.dao.*.*(..))")
 	private void forDaoPackage() {
 	}
 
+	// create pointcut to include the package and exclude the getters and setters
+	@Pointcut("forDaoPackage() && !(getter() || setter())")
+	private void excludeGetterandSetter() {
+	}
+
 	// Pointcut expression for all return types & any number of arguments
-	@Before("forDaoPackage()")
+	@Before("excludeGetterandSetter()")
 	public void beforeAddAccountAdvice() {
 		System.out.println("\n======>>>>> Executing @Before Advice on method()");
 	}
 
-	@Before("forDaoPackage()")
+	@Before("excludeGetterandSetter()")
 	public void performAPIanalytics() {
 		System.out.println("\n======>>>>> Executing @Before Advice API analytics");
 	}
