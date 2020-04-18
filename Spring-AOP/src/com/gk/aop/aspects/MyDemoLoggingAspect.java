@@ -25,7 +25,7 @@ public class MyDemoLoggingAspect {
 	// @Before("execution(public * add*(com.gk.aop.Account))")
 	
 	// Pointcut expression for all return types & any number of arguments
-	@Before("execution(public * add*(..))")
+	@Before("execution(public * com.gk.aop.dao.*.*(..))")
 	public void beforeAddAccountAdvice() {
 		System.out.println("\n======>>>>> Executing @Before Advice on method()");
 	}
