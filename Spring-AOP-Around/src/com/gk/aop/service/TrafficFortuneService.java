@@ -2,6 +2,10 @@ package com.gk.aop.service;
 
 import java.util.concurrent.TimeUnit;
 
+import org.springframework.stereotype.Component;
+
+
+@Component(value = "TrafficFortuneService")
 public class TrafficFortuneService {
 
 	public String getFortune() {
