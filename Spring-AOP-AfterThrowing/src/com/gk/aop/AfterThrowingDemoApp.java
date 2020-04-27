@@ -17,14 +17,22 @@ public class AfterThrowingDemoApp {
 		AccountDao theAccountDao = context.getBean("accountDao", AccountDao.class);
 
 		// call the method to find the acccount
-		List<Account> theAccounts = theAccountDao.findAccounts();
+		List<Account> theAccounts = null;
+
+		try {
+			// add a boolean flag to simulate exception
+			boolean tripWire = true;
+			theAccountDao.findAccounts(tripWire);
+		} catch (Exception e) {
+			System.out.println("\n\nMain Program....caught exception" + e);
+		}
 
 		// display the accounts
-		System.out.println("\n\nMain Program: After ReturningDemoApp");
+		System.out.println("\n\nMain Program: After ThrowingDemoApp");
 		System.out.println("----");
 		System.out.println(theAccounts);
 		System.out.println("\n");
-		
+
 		// close the context
 		context.close();
 	}

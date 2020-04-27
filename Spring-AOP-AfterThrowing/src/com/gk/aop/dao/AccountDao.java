@@ -13,7 +13,14 @@ public class AccountDao {
 	private String nameString;
 	private String serviceString;
 
-	public List<Account> findAccounts() {
+	public List<Account> findAccounts(boolean tripWire) {
+		
+		//simulate an exception
+		if (tripWire) {
+			throw new RuntimeException("No Luck For You");
+		}
+		
+		
 		List<Account> myAccounts = new ArrayList<Account>();
 		
 		// create sample accounts
