@@ -31,6 +31,26 @@ public class MyDemoLoggingAspect {
 		// print out the result for the method call
 		System.out.println("\n=======>>>> Result is : " + result);
 
+		// modify the data
+
+		// convert the account names to all upper case
+		convertAccountNameToUpperCase(result);
+		
+		System.out.println("\n====>>>> results is: " + result);
+
+	}
+
+	private void convertAccountNameToUpperCase(List<Account> result) {
+		// loop through the accounts
+		for (Account tempAccout : result) {
+
+			// get uppercase version of name
+			String theUpperNameString = tempAccout.getName().toUpperCase();
+
+			// update the name on the account
+			tempAccout.setName(theUpperNameString);
+		}
+
 	}
 
 	@Before("com.gk.aop.aspects.PointCutExpressions.excludeGetterandSetter()")
