@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
@@ -15,24 +16,28 @@ import org.springframework.stereotype.Component;
 
 import com.gk.aop.Account;
 
-
 @Aspect
 @Component
 @Order(2)
 public class MyDemoLoggingAspect {
-	
-	@AfterThrowing(pointcut = "execution(public * com.gk.aop.dao.AccountDao.findAccounts(..) )",throwing ="theExe" )
-	public void afterThrowingFindAccountsAdvice(JoinPoint theJoinPoint,Throwable theExe) {
+
+	@After("execution(public * com.gk.aop.dao.AccountDao.findAccounts(..) )")
+	public void afterFinallyFindAccountsAdvice(JoinPoint theJoinPoint) {
+		// print out which method we are advising on
+		String method = theJoinPoint.getSignature().toShortString();
+		System.out.println("\n=======>>>> Executing @After(Finally) on method: " + method); 
+	}
+
+	@AfterThrowing(pointcut = "execution(public * com.gk.aop.dao.AccountDao.findAccounts(..) )", throwing = "theExe")
+	public void afterThrowingFindAccountsAdvice(JoinPoint theJoinPoint, Throwable theExe) {
 		// print out which method we are advising on
 		String method = theJoinPoint.getSignature().toShortString();
 		System.out.println("\n=======>>>> Executing @AfterThrowing on method: " + method);
 		// log the execption
 		System.out.println("The Execption is :" + theExe);
 	}
-	
-	
 
-//	add a new advice for @AfterReturning on the findAccounts method
+	// add a new advice for @AfterReturning on the findAccounts method
 
 	@AfterReturning(pointcut = "execution(public * com.gk.aop.dao.AccountDao.findAccounts(..))", returning = "result")
 	public void afterReturningFindAccountsAdvice(JoinPoint theJoinPoint, List<Account> result) {
@@ -48,7 +53,7 @@ public class MyDemoLoggingAspect {
 
 		// convert the account names to all upper case
 		convertAccountNameToUpperCase(result);
-		
+
 		System.out.println("\n====>>>> results is: " + result);
 
 	}
