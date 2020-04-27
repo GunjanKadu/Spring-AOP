@@ -18,12 +18,19 @@ import com.gk.aop.Account;
 @Component
 @Order(2)
 public class MyDemoLoggingAspect {
-	
+
 //	add a new advice for @AfterReturning on the findAccounts method
-	
-	@AfterReturning(pointcut = "* * com.gk.aop.dao.AccountDao.findAccounts(..)",returning = "result")
-	public void afterReturningFindAccountsAdvice(JoinPoint theJoinPoint,List<Account> result) {
-		
+
+	@AfterReturning(pointcut = "execution(public * com.gk.aop.dao.AccountDao.findAccounts(..))", returning = "result")
+	public void afterReturningFindAccountsAdvice(JoinPoint theJoinPoint, List<Account> result) {
+
+		// print out which method we are advising on
+		String method = theJoinPoint.getSignature().toShortString();
+		System.out.println("\n=======>>>> Executing @AfterReturning on method: " + method);
+
+		// print out the result for the method call
+		System.out.println("\n=======>>>> Result is : " + result);
+
 	}
 
 	@Before("com.gk.aop.aspects.PointCutExpressions.excludeGetterandSetter()")
